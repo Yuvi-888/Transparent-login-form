@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ec03c223ab.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Login Form</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: 'Ubuntu', sans-serif;
+
+
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 10%;
+            left: 37%;
+            text-align: center;
+            align-items: center;
+            font-size: 33px;
+        }
+
+        div.container {
+            border: 2px solid rgb(0, 0, 0);
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 30%;
+            left: 38%;
+            background: none;
+            padding: 100px;
+            height: 185px;
+            width: 200px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h3 {
+            background: none;
+            margin: 20px 0px;
+            border-bottom: 3px solid white;
+            border-color: rgb(0, 0, 0);
+            width: 35%;
+            font-size: 22px;
+        }
+
+        .btn {
+            border: 2px solid white;
+            padding: 10px 0px;
+            margin: 20px 0px;
+            font-weight: bold;
+            border-radius: 7px;
+            width: 80px;
+            height: 50px;
+            background: none;
+            border-color: rgb(0, 0, 0);
+            cursor: pointer;
+        }
+
+        div.inputmail {
+            background: none;
+            margin: 8px 0px;
+            padding: 5px;
+            border-bottom: 2px solid white;
+            border-color: rgb(0, 0, 0);
+        }
+
+        div.inputpass {
+            background: none;
+            margin: 8px 0px;
+            padding: 5px;
+            border-bottom: 2px solid white;
+            border-color: rgb(0, 0, 0);
+        }
+
+        input {
+            background: none;
+
+
+            border: none;
+            outline: none;
+        }
+
+        .btn:hover{background-color: rgb(86 3 54);}
+
+        footer {display: flex;
+        justify-content: center;
+            position: absolute;
+            top:97%;
+            left:41%;
+            background: none;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Welcome to coderyuvraj.in</h2>
+
+    <div class="container">
+        <h3>SignIn</h2>
+
+            <div class="inputmail">
+
+                <i class="fa fa-envelope"></i>
+                <input type="email" placeholder="Email:">
+            </div>
+            <div class="inputpass">
+
+                <i class="fa fa-key"></i>
+                <input type="password" placeholder="Password:">
+            </div>
+            <button class="btn">SignIn</button>
+    </div>
+    <footer>Copyright @2023. All rights reserved. | coderyuvraj.in</footer>
+</body>
+
+</html>
